@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store
+outputs/
+data/raw/
+*.log
+*.err
+*.tmp
+*.docx
+*.doc
+*.tex
+*.bib
