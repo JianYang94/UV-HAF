@@ -1,0 +1,463 @@
+{
+  "training_cases": 2816,
+  "independent_sobol_holdout_cases": 768,
+  "spectrum": "all-sky global downward irradiance, 280-400 nm at 1 nm",
+  "cloud_method": "independent-column clear/cloudy mixture by cloud fraction",
+  "pca": {
+    "chosen_components": 19,
+    "cumulative_explained_variance": 0.9999988774292716,
+    "component_diagnostics": {
+      "1": {
+        "cumulative_explained_variance": 0.7591277789230008,
+        "maximum_p95_dose_error_percent": 161.1779617510444,
+        "maximum_p95_satellite_wavelength_error_percent": 171.85196218752012
+      },
+      "2": {
+        "cumulative_explained_variance": 0.9201359116185402,
+        "maximum_p95_dose_error_percent": 90.4130854862253,
+        "maximum_p95_satellite_wavelength_error_percent": 121.37234652707042
+      },
+      "3": {
+        "cumulative_explained_variance": 0.9544941581416923,
+        "maximum_p95_dose_error_percent": 75.53015205062431,
+        "maximum_p95_satellite_wavelength_error_percent": 109.93678756701655
+      },
+      "4": {
+        "cumulative_explained_variance": 0.9689595613878978,
+        "maximum_p95_dose_error_percent": 63.56029377357183,
+        "maximum_p95_satellite_wavelength_error_percent": 66.71527286635431
+      },
+      "5": {
+        "cumulative_explained_variance": 0.9777290864033367,
+        "maximum_p95_dose_error_percent": 54.197539483456836,
+        "maximum_p95_satellite_wavelength_error_percent": 61.8935026185028
+      },
+      "6": {
+        "cumulative_explained_variance": 0.9834046684849238,
+        "maximum_p95_dose_error_percent": 52.24226434077678,
+        "maximum_p95_satellite_wavelength_error_percent": 60.02419639240789
+      },
+      "7": {
+        "cumulative_explained_variance": 0.9880003099566805,
+        "maximum_p95_dose_error_percent": 56.74518075717485,
+        "maximum_p95_satellite_wavelength_error_percent": 55.17681479289861
+      },
+      "8": {
+        "cumulative_explained_variance": 0.9908104986233816,
+        "maximum_p95_dose_error_percent": 29.82117424344732,
+        "maximum_p95_satellite_wavelength_error_percent": 28.926211530122213
+      },
+      "9": {
+        "cumulative_explained_variance": 0.9932432418749465,
+        "maximum_p95_dose_error_percent": 29.87437564211457,
+        "maximum_p95_satellite_wavelength_error_percent": 28.94906994766657
+      },
+      "10": {
+        "cumulative_explained_variance": 0.9953135804086639,
+        "maximum_p95_dose_error_percent": 13.287394945592133,
+        "maximum_p95_satellite_wavelength_error_percent": 25.64425407407413
+      },
+      "11": {
+        "cumulative_explained_variance": 0.9969918491872005,
+        "maximum_p95_dose_error_percent": 10.197046919279197,
+        "maximum_p95_satellite_wavelength_error_percent": 25.760832338292033
+      },
+      "12": {
+        "cumulative_explained_variance": 0.9980049605729195,
+        "maximum_p95_dose_error_percent": 10.090693695592554,
+        "maximum_p95_satellite_wavelength_error_percent": 25.68731746988161
+      },
+      "13": {
+        "cumulative_explained_variance": 0.9987388718832604,
+        "maximum_p95_dose_error_percent": 9.900502798082229,
+        "maximum_p95_satellite_wavelength_error_percent": 16.95091258750959
+      },
+      "14": {
+        "cumulative_explained_variance": 0.9993655152326107,
+        "maximum_p95_dose_error_percent": 9.914149029327834,
+        "maximum_p95_satellite_wavelength_error_percent": 16.97349378521585
+      },
+      "15": {
+        "cumulative_explained_variance": 0.9996889336576844,
+        "maximum_p95_dose_error_percent": 5.599480614523446,
+        "maximum_p95_satellite_wavelength_error_percent": 7.817823060571116
+      },
+      "16": {
+        "cumulative_explained_variance": 0.9999279180357614,
+        "maximum_p95_dose_error_percent": 5.600013693972615,
+        "maximum_p95_satellite_wavelength_error_percent": 7.819257976130834
+      },
+      "17": {
+        "cumulative_explained_variance": 0.9999847888195712,
+        "maximum_p95_dose_error_percent": 2.5636796209558925,
+        "maximum_p95_satellite_wavelength_error_percent": 3.8251263002285207
+      },
+      "18": {
+        "cumulative_explained_variance": 0.9999963438960238,
+        "maximum_p95_dose_error_percent": 0.8724208183901987,
+        "maximum_p95_satellite_wavelength_error_percent": 1.0210299141139938
+      },
+      "19": {
+        "cumulative_explained_variance": 0.9999988774292716,
+        "maximum_p95_dose_error_percent": 0.30788624065136483,
+        "maximum_p95_satellite_wavelength_error_percent": 0.9902206801293882
+      },
+      "20": {
+        "cumulative_explained_variance": 0.9999995335216243,
+        "maximum_p95_dose_error_percent": 0.1899611731857797,
+        "maximum_p95_satellite_wavelength_error_percent": 0.2726347961979242
+      },
+      "21": {
+        "cumulative_explained_variance": 0.9999997284912685,
+        "maximum_p95_dose_error_percent": 0.129158591673738,
+        "maximum_p95_satellite_wavelength_error_percent": 0.2839866832085053
+      },
+      "22": {
+        "cumulative_explained_variance": 0.999999830087039,
+        "maximum_p95_dose_error_percent": 0.11124810997796433,
+        "maximum_p95_satellite_wavelength_error_percent": 0.20661629885829202
+      },
+      "23": {
+        "cumulative_explained_variance": 0.9999999108830175,
+        "maximum_p95_dose_error_percent": 0.08670683241288883,
+        "maximum_p95_satellite_wavelength_error_percent": 0.19133505797457315
+      },
+      "24": {
+        "cumulative_explained_variance": 0.9999999493575739,
+        "maximum_p95_dose_error_percent": 0.08459655907088245,
+        "maximum_p95_satellite_wavelength_error_percent": 0.18191400358622206
+      },
+      "25": {
+        "cumulative_explained_variance": 0.999999975810478,
+        "maximum_p95_dose_error_percent": 0.024440715372056596,
+        "maximum_p95_satellite_wavelength_error_percent": 0.0860802779022479
+      },
+      "26": {
+        "cumulative_explained_variance": 0.9999999850807063,
+        "maximum_p95_dose_error_percent": 0.022431175389631124,
+        "maximum_p95_satellite_wavelength_error_percent": 0.08361106476623302
+      },
+      "27": {
+        "cumulative_explained_variance": 0.999999990821608,
+        "maximum_p95_dose_error_percent": 0.015976351419584863,
+        "maximum_p95_satellite_wavelength_error_percent": 0.08053546742925131
+      },
+      "28": {
+        "cumulative_explained_variance": 0.9999999952178261,
+        "maximum_p95_dose_error_percent": 0.011222655163596327,
+        "maximum_p95_satellite_wavelength_error_percent": 0.05108427511889056
+      },
+      "29": {
+        "cumulative_explained_variance": 0.999999997129055,
+        "maximum_p95_dose_error_percent": 0.011335314373261407,
+        "maximum_p95_satellite_wavelength_error_percent": 0.0305893011575109
+      },
+      "30": {
+        "cumulative_explained_variance": 0.9999999986962551,
+        "maximum_p95_dose_error_percent": 0.008214280016296536,
+        "maximum_p95_satellite_wavelength_error_percent": 0.025119030527102064
+      }
+    }
+  },
+  "proxy": {
+    "physical_feature_count": 18,
+    "polynomial_feature_count": 190,
+    "ridge": 10
+  },
+  "holdout_satellite_wavelength_diagnostics": {
+    "305": {
+      "bias_percent": 0.6471939815211433,
+      "rmse_percent": 14.875104006251739,
+      "median_absolute_error_percent": 9.069617175895473,
+      "p95_absolute_error_percent": 28.197007563134548,
+      "max_absolute_error_percent": 112.09988634321869
+    },
+    "310": {
+      "bias_percent": 0.9737401080316012,
+      "rmse_percent": 15.5714703942812,
+      "median_absolute_error_percent": 7.413954371001785,
+      "p95_absolute_error_percent": 30.16033703692855,
+      "max_absolute_error_percent": 156.2855804356683
+    },
+    "324": {
+      "bias_percent": 0.2726556431951662,
+      "rmse_percent": 10.284499851476436,
+      "median_absolute_error_percent": 5.386921013788248,
+      "p95_absolute_error_percent": 18.575084141733946,
+      "max_absolute_error_percent": 116.52198254735855
+    },
+    "380": {
+      "bias_percent": 0.2269012578875048,
+      "rmse_percent": 9.742939906637314,
+      "median_absolute_error_percent": 5.399496422212769,
+      "p95_absolute_error_percent": 17.59849435747533,
+      "max_absolute_error_percent": 99.34966363473923
+    }
+  },
+  "holdout_dose_diagnostics": {
+    "uv_280_400_W_m2": {
+      "bias_percent": 0.2253593533162924,
+      "rmse_percent": 9.778297834290035,
+      "median_absolute_error_percent": 5.364358908375483,
+      "p95_absolute_error_percent": 17.766147432723788,
+      "max_absolute_error_percent": 102.50251159780292
+    },
+    "uvb_280_315_W_m2": {
+      "bias_percent": 0.7321610980879671,
+      "rmse_percent": 13.493995930074655,
+      "median_absolute_error_percent": 6.791090295833807,
+      "p95_absolute_error_percent": 24.708367048013546,
+      "max_absolute_error_percent": 123.32605227632118
+    },
+    "dose_erythema": {
+      "bias_percent": 0.4775543781161747,
+      "rmse_percent": 10.825187088245968,
+      "median_absolute_error_percent": 6.118616156916879,
+      "p95_absolute_error_percent": 20.2034230867754,
+      "max_absolute_error_percent": 114.3432814325208
+    },
+    "dose_vitamin_d": {
+      "bias_percent": 0.6123368849794008,
+      "rmse_percent": 12.924276239100728,
+      "median_absolute_error_percent": 7.436361577006501,
+      "p95_absolute_error_percent": 23.655658493806744,
+      "max_absolute_error_percent": 118.90110666904481
+    },
+    "dose_plant_fc": {
+      "bias_percent": 0.3790437972284331,
+      "rmse_percent": 9.957900773718773,
+      "median_absolute_error_percent": 5.417003710449054,
+      "p95_absolute_error_percent": 18.253280928157725,
+      "max_absolute_error_percent": 105.75821088980275
+    },
+    "dose_plant_cg_alt": {
+      "bias_percent": 0.8870243839641905,
+      "rmse_percent": 14.305683787333072,
+      "median_absolute_error_percent": 7.88197315656639,
+      "p95_absolute_error_percent": 26.308213623915233,
+      "max_absolute_error_percent": 120.06094785780022
+    },
+    "dose_aquatic_cullen": {
+      "bias_percent": 0.3138852394654792,
+      "rmse_percent": 10.019160002358625,
+      "median_absolute_error_percent": 5.392526701719219,
+      "p95_absolute_error_percent": 18.415978146557848,
+      "max_absolute_error_percent": 108.60549905388943
+    },
+    "dose_aquatic_neale_alt": {
+      "bias_percent": 0.27031720380953805,
+      "rmse_percent": 10.053548746360763,
+      "median_absolute_error_percent": 5.394675584560293,
+      "p95_absolute_error_percent": 18.479588450983943,
+      "max_absolute_error_percent": 110.20981754208879
+    }
+  },
+  "gates": {
+    "wavelength_median_absolute_error_lt_15pct": true,
+    "dose_median_absolute_error_lt_15pct": true
+  },
+  "target_training_cases": 768,
+  "target_holdout_cases": 256,
+  "targeted_external_metrics": [
+    {
+      "group": "all",
+      "value": "all",
+      "wavelength_nm": 305,
+      "n": 40916,
+      "normalized_mean_bias_percent": 2.8958566039329225,
+      "median_bias_percent": -0.14973105119021612,
+      "median_absolute_error_percent": 8.38785921939047,
+      "p95_absolute_error_percent": 22.05556568701943
+    },
+    {
+      "group": "all",
+      "value": "all",
+      "wavelength_nm": 310,
+      "n": 40916,
+      "normalized_mean_bias_percent": 5.561231119353982,
+      "median_bias_percent": 3.3847661309140964,
+      "median_absolute_error_percent": 7.3159923117009695,
+      "p95_absolute_error_percent": 21.61978654917278
+    },
+    {
+      "group": "all",
+      "value": "all",
+      "wavelength_nm": 324,
+      "n": 40916,
+      "normalized_mean_bias_percent": 4.63658870307968,
+      "median_bias_percent": 2.987027754390603,
+      "median_absolute_error_percent": 5.49484695836383,
+      "p95_absolute_error_percent": 19.24602067247923
+    },
+    {
+      "group": "all",
+      "value": "all",
+      "wavelength_nm": 380,
+      "n": 40916,
+      "normalized_mean_bias_percent": 5.601600351557745,
+      "median_bias_percent": 3.7474222611868724,
+      "median_absolute_error_percent": 6.073985291941386,
+      "p95_absolute_error_percent": 20.675791994867506
+    },
+    {
+      "group": "cot_bin",
+      "value": "<1",
+      "wavelength_nm": 305,
+      "n": 23186,
+      "normalized_mean_bias_percent": 5.853006344722145,
+      "median_bias_percent": 3.7942540923928347,
+      "median_absolute_error_percent": 8.379665294259965,
+      "p95_absolute_error_percent": 20.760359735467123
+    },
+    {
+      "group": "cot_bin",
+      "value": "<1",
+      "wavelength_nm": 310,
+      "n": 23186,
+      "normalized_mean_bias_percent": 8.223123523063247,
+      "median_bias_percent": 6.410038868262069,
+      "median_absolute_error_percent": 7.896136891785666,
+      "p95_absolute_error_percent": 20.945617103340698
+    },
+    {
+      "group": "cot_bin",
+      "value": "<1",
+      "wavelength_nm": 324,
+      "n": 23186,
+      "normalized_mean_bias_percent": 6.9413610497006895,
+      "median_bias_percent": 5.582243300981149,
+      "median_absolute_error_percent": 6.235959572503208,
+      "p95_absolute_error_percent": 18.246150039608995
+    },
+    {
+      "group": "cot_bin",
+      "value": "<1",
+      "wavelength_nm": 380,
+      "n": 23186,
+      "normalized_mean_bias_percent": 8.444280615809774,
+      "median_bias_percent": 7.395055504671577,
+      "median_absolute_error_percent": 7.748948613017381,
+      "p95_absolute_error_percent": 20.13909717835822
+    },
+    {
+      "group": "cot_bin",
+      "value": "1-10",
+      "wavelength_nm": 305,
+      "n": 11329,
+      "normalized_mean_bias_percent": -5.06163270067288,
+      "median_bias_percent": -6.615695207270389,
+      "median_absolute_error_percent": 7.825826061962937,
+      "p95_absolute_error_percent": 20.524651711296457
+    },
+    {
+      "group": "cot_bin",
+      "value": "1-10",
+      "wavelength_nm": 310,
+      "n": 11329,
+      "normalized_mean_bias_percent": -1.4590780735273978,
+      "median_bias_percent": -2.857933883682273,
+      "median_absolute_error_percent": 5.833084657611498,
+      "p95_absolute_error_percent": 14.760444549876349
+    },
+    {
+      "group": "cot_bin",
+      "value": "1-10",
+      "wavelength_nm": 324,
+      "n": 11329,
+      "normalized_mean_bias_percent": -1.686486117106989,
+      "median_bias_percent": -2.119318614552357,
+      "median_absolute_error_percent": 3.8753175148120933,
+      "p95_absolute_error_percent": 12.269117862112266
+    },
+    {
+      "group": "cot_bin",
+      "value": "1-10",
+      "wavelength_nm": 380,
+      "n": 11329,
+      "normalized_mean_bias_percent": -1.9814767295503133,
+      "median_bias_percent": -2.313891928069245,
+      "median_absolute_error_percent": 3.7242637556975877,
+      "p95_absolute_error_percent": 11.722687505636172
+    },
+    {
+      "group": "cot_bin",
+      "value": "10-30",
+      "wavelength_nm": 305,
+      "n": 4819,
+      "normalized_mean_bias_percent": -1.6479995003180092,
+      "median_bias_percent": -1.5883584858591204,
+      "median_absolute_error_percent": 8.023847667018247,
+      "p95_absolute_error_percent": 21.517026816872168
+    },
+    {
+      "group": "cot_bin",
+      "value": "10-30",
+      "wavelength_nm": 310,
+      "n": 4819,
+      "normalized_mean_bias_percent": 1.3653955036699417,
+      "median_bias_percent": 1.5556353738755302,
+      "median_absolute_error_percent": 6.946857199796841,
+      "p95_absolute_error_percent": 21.148975178672057
+    },
+    {
+      "group": "cot_bin",
+      "value": "10-30",
+      "wavelength_nm": 324,
+      "n": 4819,
+      "normalized_mean_bias_percent": 2.0600404938231343,
+      "median_bias_percent": 2.210035968260504,
+      "median_absolute_error_percent": 5.1228209485631115,
+      "p95_absolute_error_percent": 18.39273343568864
+    },
+    {
+      "group": "cot_bin",
+      "value": "10-30",
+      "wavelength_nm": 380,
+      "n": 4819,
+      "normalized_mean_bias_percent": 2.668240527910326,
+      "median_bias_percent": 3.4615375913615853,
+      "median_absolute_error_percent": 5.410778629931546,
+      "p95_absolute_error_percent": 17.634091882236202
+    },
+    {
+      "group": "cot_bin",
+      "value": ">30",
+      "wavelength_nm": 305,
+      "n": 1582,
+      "normalized_mean_bias_percent": 18.959207896966458,
+      "median_bias_percent": 19.26911089740331,
+      "median_absolute_error_percent": 19.285931518484254,
+      "p95_absolute_error_percent": 42.40015784193889
+    },
+    {
+      "group": "cot_bin",
+      "value": ">30",
+      "wavelength_nm": 310,
+      "n": 1582,
+      "normalized_mean_bias_percent": 20.775004991093084,
+      "median_bias_percent": 21.13642804005702,
+      "median_absolute_error_percent": 21.13642804005702,
+      "p95_absolute_error_percent": 44.776069446073365
+    },
+    {
+      "group": "cot_bin",
+      "value": ">30",
+      "wavelength_nm": 324,
+      "n": 1582,
+      "normalized_mean_bias_percent": 20.242231770937934,
+      "median_bias_percent": 20.556822874242705,
+      "median_absolute_error_percent": 20.556822874242705,
+      "p95_absolute_error_percent": 40.2491018999216
+    },
+    {
+      "group": "cot_bin",
+      "value": ">30",
+      "wavelength_nm": 380,
+      "n": 1582,
+      "normalized_mean_bias_percent": 21.576894680733893,
+      "median_bias_percent": 22.276298045372034,
+      "median_absolute_error_percent": 22.276298045372034,
+      "p95_absolute_error_percent": 40.57641838024518
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "figure": "Figure 2",
+  "years": [
+    2015,
+    2100
+  ],
+  "baseline": [
+    2015,
+    2025
+  ],
+  "model": "UKESM1-0-LL r1i1p1f2",
+  "scenarios": [
+    "ssp126",
+    "ssp245",
+    "ssp585"
+  ],
+  "smoothing": "centred 11-year running mean with edge padding",
+  "critic_weights": {
+    "gmst": 0.10195983874100335,
+    "co2": 0.10272853355800915,
+    "sst": 0.10195983874100151,
+    "ohc": 0.18191413816993618,
+    "ph": 0.10272853355801427,
+    "omega": 0.10272853355801137,
+    "uv_erythema": 0.3059805836740242
+  },
+  "uv_scale_J_m-2_d-1": 63.75597447448651,
+  "threshold_percentile": 90,
+  "tau": 3.6516549198487844,
+  "whi_coverage": 0.9998827927818081,
+  "comparison": "with versus without UV term; seven-variable weights held fixed"
+}

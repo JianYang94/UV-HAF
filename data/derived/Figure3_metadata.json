@@ -1,0 +1,108 @@
+{
+  "figure": "Figure 3",
+  "model": "UKESM1-0-LL r1i1p1f2",
+  "baseline": [
+    2015,
+    2025
+  ],
+  "periods": {
+    "mid": [
+      2041,
+      2060
+    ],
+    "late": [
+      2081,
+      2100
+    ]
+  },
+  "scenarios": [
+    "ssp126",
+    "ssp245",
+    "ssp585"
+  ],
+  "projection": "Robinson",
+  "map_resolution_degrees": 0.5,
+  "tau": 3.6516549198487844,
+  "uv_scale_J_m-2_d-1": 63.75597447448651,
+  "critic_weights": {
+    "gmst": 0.10195983874100335,
+    "co2": 0.10272853355800915,
+    "sst": 0.10195983874100151,
+    "ohc": 0.18191413816993618,
+    "ph": 0.10272853355801427,
+    "omega": 0.10272853355801137,
+    "uv_erythema": 0.3059805836740242
+  },
+  "whi_coverage": 0.9998827927818081,
+  "vmin": -2.0,
+  "vmax": 10.0,
+  "diagnostics": [
+    {
+      "scenario": "ssp126",
+      "period": "mid",
+      "years": [
+        2041,
+        2060
+      ],
+      "area_weighted_mean_chs": 2.3454133433132314,
+      "haf": 0.751626967844117,
+      "land_above_threshold": 0.24837303215588277
+    },
+    {
+      "scenario": "ssp245",
+      "period": "mid",
+      "years": [
+        2041,
+        2060
+      ],
+      "area_weighted_mean_chs": 2.134590855101384,
+      "haf": 0.7867380754954729,
+      "land_above_threshold": 0.2132619245045271
+    },
+    {
+      "scenario": "ssp585",
+      "period": "mid",
+      "years": [
+        2041,
+        2060
+      ],
+      "area_weighted_mean_chs": 2.6923537739807344,
+      "haf": 0.6894002906444976,
+      "land_above_threshold": 0.3105997093555023
+    },
+    {
+      "scenario": "ssp126",
+      "period": "late",
+      "years": [
+        2081,
+        2100
+      ],
+      "area_weighted_mean_chs": 2.6064496074635963,
+      "haf": 0.70372547102503,
+      "land_above_threshold": 0.2962745289749699
+    },
+    {
+      "scenario": "ssp245",
+      "period": "late",
+      "years": [
+        2081,
+        2100
+      ],
+      "area_weighted_mean_chs": 3.273343614282162,
+      "haf": 0.5645732280985464,
+      "land_above_threshold": 0.4354267719014535
+    },
+    {
+      "scenario": "ssp585",
+      "period": "late",
+      "years": [
+        2081,
+        2100
+      ],
+      "area_weighted_mean_chs": 5.980879696093493,
+      "haf": 0.1693991849392932,
+      "land_above_threshold": 0.8306008150607068
+    }
+  ],
+  "antarctica_display": "CHS shown using neutral B=0 water-hazard fill and forced climate/UV terms; excluded from HAF and threshold calculations"
+}

@@ -1,0 +1,21 @@
+{
+  "figure": "Figure 4",
+  "model": "UKESM1-0-LL r1i1p1f2",
+  "years": [
+    2015,
+    2100
+  ],
+  "baseline": [
+    2015,
+    2025
+  ],
+  "tau7": 3.6516549198487844,
+  "tau6": 3.99752656627782,
+  "uv_weight": 0.3059805836740242,
+  "uv_scale_J_m-2_d-1": 63.75597447448651,
+  "threshold_crossing_rule": "first of five consecutive years above tau",
+  "antarctica": "displayed with B=0 and forced climate/UV; excluded from HAF and threshold",
+  "content": "CHS7 minus independently weighted CHS6 for 2041-2060 and 2081-2100",
+  "png": "Figure4_UV_total_CHS_increment.png",
+  "pdf": "Figure4_UV_total_CHS_increment.pdf"
+}

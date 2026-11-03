@@ -1,0 +1,21 @@
+{
+  "figure": "Figure 5",
+  "model": "UKESM1-0-LL r1i1p1f2",
+  "years": [
+    2015,
+    2100
+  ],
+  "baseline": [
+    2015,
+    2025
+  ],
+  "tau7": 3.6516549198487844,
+  "tau6": 3.99752656627782,
+  "uv_weight": 0.3059805836740242,
+  "uv_scale_J_m-2_d-1": 63.75597447448651,
+  "threshold_crossing_rule": "first of five consecutive years above tau",
+  "antarctica": "displayed with B=0 and forced climate/UV; excluded from HAF and threshold",
+  "content": "CHS7 first persistent threshold crossing and crossing-year change relative to CHS6",
+  "png": "Figure5_HAF_and_first_crossing.png",
+  "pdf": "Figure5_HAF_and_first_crossing.pdf"
+}
