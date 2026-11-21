@@ -14,7 +14,8 @@ analyses, threshold-crossing diagnostics and figure-generation programs.
 ``data/derived`` contains the serialized spectral emulator, its metadata, the
 biological action spectrum, final CRITIC weights and source data for the figures.
 The released Water Hazard Index and land mask are stored beside the code that
-loads them. ``figures`` contains the final main and supplementary figures.
+loads them. ``figures`` contains the five main figures, three Extended Data
+figures and one supplementary figure used by the manuscript.
 ``environment`` contains the software requirements.
 
 External input data
@@ -59,7 +60,43 @@ Analysis sequence
    training series and calculate the fixed reference thresholds.
 5. Calculate CHS, HAF, the direct UV comparison, sensitivity tests and first
    persistent threshold crossing.
-6. Generate the five main figures and four supplementary figures.
+6. Generate the five main figures, three Extended Data figures and one
+   supplementary figure.
+
+Final figure reproduction
+-------------------------
+
+The final manuscript filenames are ``Figure1`` to ``Figure5``,
+``Extended_Data_Figure_1`` to ``Extended_Data_Figure_3`` and
+``Supplementary_Figure_S1``. Figure 1 is an editable schematic whose canonical
+source is ``figures/Figure1.svg``; matching PDF and PNG exports are supplied.
+All data-driven figures are regenerated from the released source data by::
+
+   python code/reproduce_final_figures.py --repo-root . --output-dir figures
+
+The command verifies the released source-data checksums, runs every final
+plotting program, checks that every expected PNG and PDF was created, and
+verifies that each PDF is readable. To compare a test render with the committed
+PNGs without overwriting them, use::
+
+   python code/reproduce_final_figures.py --repo-root . \
+       --output-dir outputs/figure_check --verify-against figures
+
+Figure-to-code mapping
+----------------------
+
+``Figure1`` is a conceptual workflow, supplied as the editable vector source
+``figures/Figure1.svg`` with matching PDF and PNG exports. The data-driven
+figures map directly to the following programs:
+
+* ``Figure2``: ``code/plot_figure2.py``
+* ``Figure3``: ``code/plot_figure3.py``
+* ``Figure4``: ``code/plot_figure4.py``
+* ``Figure5``: ``code/plot_figure5.py``
+* ``Extended_Data_Figure_1``: ``code/plot_extended_data_figure1.py``
+* ``Extended_Data_Figure_2``: ``code/plot_extended_data_figure2.py``
+* ``Extended_Data_Figure_3``: ``code/plot_extended_data_figure3.py``
+* ``Supplementary_Figure_S1``: ``code/plot_supplementary_figure_s1.py``
 
 Methodological order
 --------------------
@@ -77,10 +114,10 @@ Data products
 -------------
 
 The source data supplied for each figure reproduce the displayed values without
-requiring redistribution of the original CMIP6 files. Figure S4 source fields
-include the six counterfactual maps and nine-point trajectories used in the
-display. The annual UV cache is an intermediate product and can be regenerated
-from the public UKESM1-0-LL input. Released figure-source data, weights and model
-metadata are read from ``data/derived`` when regenerated intermediate outputs
-are not present.
+requiring redistribution of the original CMIP6 files. Extended Data Figure 3
+source fields include the six counterfactual maps and nine-point trajectories
+used in the display. The annual UV cache is an intermediate product and can be
+regenerated from the public UKESM1-0-LL input. Released figure-source data,
+weights and model metadata are read from ``data/derived`` when regenerated
+intermediate outputs are not present.
 

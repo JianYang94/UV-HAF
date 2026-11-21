@@ -16,6 +16,6 @@
   "threshold_crossing_rule": "first of five consecutive years above tau",
   "antarctica": "displayed with B=0 and forced climate/UV; excluded from HAF and threshold",
   "content": "CHS7 first persistent threshold crossing and crossing-year change relative to CHS6",
-  "png": "Figure5_HAF_and_first_crossing.png",
-  "pdf": "Figure5_HAF_and_first_crossing.pdf"
+  "png": "Figure5.png",
+  "pdf": "Figure5.pdf"
 }
